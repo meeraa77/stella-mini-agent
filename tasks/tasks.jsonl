@@ -1,0 +1,20 @@
+{"task_id":"E1","split":"experience","question":"What is the UniProt accession of human TP53?","expected":["P04637"]}
+{"task_id":"E2","split":"experience","question":"What is the UniProt accession of human EGFR?","expected":["P00533"]}
+{"task_id":"E3","split":"experience","question":"What is the UniProt accession of human KRAS?","expected":["P01116"]}
+{"task_id":"E4","split":"experience","question":"What is the UniProt accession of human PTEN?","expected":["P60484"]}
+{"task_id":"E5","split":"experience","question":"What is the UniProt accession of human MYC?","expected":["P01106"]}
+{"task_id":"E6","split":"experience","question":"What is the Ensembl gene ID of human TP53?","expected":["ENSG00000141510"]}
+{"task_id":"E7","split":"experience","question":"What is the Ensembl gene ID of human EGFR?","expected":["ENSG00000146648"]}
+{"task_id":"E8","split":"experience","question":"What is the Ensembl gene ID of human KRAS?","expected":["ENSG00000133703"]}
+{"task_id":"E9","split":"experience","question":"What is the Ensembl gene ID of human PTEN?","expected":["ENSG00000171862"]}
+{"task_id":"E10","split":"experience","question":"What is the Ensembl gene ID of human MYC?","expected":["ENSG00000136997"]}
+{"task_id":"H1","split":"heldout","question":"What is the UniProt accession of human BRCA1?","expected":["P38398"]}
+{"task_id":"H2","split":"heldout","question":"What is the UniProt accession of human BRCA2?","expected":["P51587"]}
+{"task_id":"H3","split":"heldout","question":"What is the UniProt accession of human CFTR?","expected":["P13569"]}
+{"task_id":"H4","split":"heldout","question":"What is the UniProt accession of human APOE?","expected":["P02649"]}
+{"task_id":"H5","split":"heldout","question":"What is the UniProt accession of human AKT1?","expected":["P31749"]}
+{"task_id":"H6","split":"heldout","question":"What is the Ensembl gene ID of human BRCA1?","expected":["ENSG00000012048"]}
+{"task_id":"H7","split":"heldout","question":"What is the Ensembl gene ID of human BRCA2?","expected":["ENSG00000139618"]}
+{"task_id":"H8","split":"heldout","question":"What is the Ensembl gene ID of human CFTR?","expected":["ENSG00000001626"]}
+{"task_id":"H9","split":"heldout","question":"What is the Ensembl gene ID of human APOE?","expected":["ENSG00000130203"]}
+{"task_id":"H10","split":"heldout","question":"What is the Ensembl gene ID of human AKT1?","expected":["ENSG00000142208"]}
