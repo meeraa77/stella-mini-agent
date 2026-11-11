@@ -1,0 +1,17 @@
+{
+  "name": "reactome_gene_pathways",
+  "description": "Returns Reactome pathway names and stable IDs for a given human gene symbol.",
+  "params_schema": {
+    "type": "object",
+    "properties": {
+      "gene": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "gene"
+    ]
+  },
+  "source": "generated",
+  "code_path": "tools\\generated\\reactome_gene_pathways.py"
+}

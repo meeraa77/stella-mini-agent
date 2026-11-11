@@ -1,0 +1,8 @@
+requests>=2.31
+requests-cache>=1.2
+pytest>=8.0
+groq
+python-dotenv
+requests
+requests-cache 
+scikit-learn

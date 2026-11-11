@@ -1,0 +1,17 @@
+{
+  "name": "search_reactome_pathways",
+  "description": "Returns Reactome pathway IDs and names for a given UniProt keyword.",
+  "params_schema": {
+    "type": "object",
+    "properties": {
+      "keyword": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "keyword"
+    ]
+  },
+  "source": "generated",
+  "code_path": "tools\\generated\\search_reactome_pathways.py"
+}

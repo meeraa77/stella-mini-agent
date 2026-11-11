@@ -1,0 +1,13 @@
+﻿class CreationReport:
+def parse_llm_output(text: str) -> dict:
+    def field_(label: str) -> str:
+def _schema(params: dict) -> dict:
+def _validate(parsed: dict, registry, expect_keys: list[str] | None, timeout: int) -> str | None:
+def _install(parsed: dict, registry, generated_dir: str, handwritten: bool) -> tuple[str, str]:
+def create_tool(
+def register_handwritten(
+def check_code(code: str, expected_params: list[str] | None = None) -> list[str]:
+def _limits(timeout: int):
+    def apply():  # POSIX only; skipped on Windows
+def _clean_env() -> dict:
+def run_file(code_path: str, kwargs: dict, timeout: int = 20) -> dict:

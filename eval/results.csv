@@ -1,0 +1,6 @@
+id,creation_task,passed,steps,tool_calls,tool_failures,tools_created,seconds
+T1,False,True,2,1,0,0,3.1
+T2,False,True,2,1,0,0,5.0
+T3,False,True,2,1,0,0,1.4
+T4,False,True,3,2,0,0,11.6
+T5,True,True,4,1,0,1,10.4

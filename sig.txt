@@ -1,0 +1,24 @@
+﻿
+> tools\creation.py:137:def create_tool(
+  tools\creation.py:138:    need: str,
+  tools\creation.py:139:    doc_path: str,
+  tools\creation.py:140:    llm,
+  tools\creation.py:141:    registry=None,
+  tools\creation.py:142:    expect_keys: list[str] | None = None,
+  tools\creation.py:143:    generated_dir: str = "tools/generated",
+  tools\creation.py:144:    max_retries: int = 2,
+  tools\creation.py:145:    timeout: int = 20,
+  tools\creation.py:146:) -> CreationReport:
+  tools\creation.py:147:    """Ask the LLM for a tool, validate it, retry with error feedback, then register it."""
+  tools\creation.py:148:    report = CreationReport(need=need)
+  tools\creation.py:149:    doc = Path(doc_path).read_text(encoding="utf-8")
+  tools\creation.py:150:    feedback = ""
+  tools\creation.py:151:    for attempt in range(1, max_retries + 2):
+  tools\creation.py:152:        report.attempts = attempt
+  tools\creation.py:153:        prompt = PROMPT.format(need=need, doc=doc, feedback=feedback)
+  tools\creation.py:154:        raw = llm.generate(prompt, temperature=0.2, max_tokens=1500)
+  tools\creation.py:155:        try:
+  tools\creation.py:156:            parsed = parse_llm_output(raw)
+  tools\creation.py:157:        except ValueError as e:
+
+

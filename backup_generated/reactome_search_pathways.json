@@ -1,0 +1,25 @@
+{
+  "name": "reactome_search_pathways",
+  "description": "Returns the top Reactome pathways for a given UniProt identifier, optionally filtered by species.",
+  "params_schema": {
+    "type": "object",
+    "properties": {
+      "uniprot_id": {
+        "type": "string"
+      },
+      "species": {
+        "type": "string"
+      },
+      "top_n": {
+        "type": "integer"
+      }
+    },
+    "required": [
+      "uniprot_id",
+      "species",
+      "top_n"
+    ]
+  },
+  "source": "generated",
+  "code_path": "tools\\generated\\reactome_search_pathways.py"
+}
