@@ -1,4 +1,4 @@
-condition,accuracy,mean_steps,mean_latency_s,runs
-B1,1.0,1.0,91.736,20
-B2,1.0,1.0,10.195,10
-B3,1.0,1.0,6.351,10
+condition,accuracy,mean_steps,median_latency_s,runs
+B1,1.0,1.0,1.28,10
+B2,1.0,1.0,10.55,10
+B3,1.0,1.0,8.98,10

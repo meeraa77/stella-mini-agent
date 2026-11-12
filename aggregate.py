@@ -8,11 +8,12 @@ import pandas as pd
 
 df = pd.read_json("results/raw/results.jsonl", lines=True)
 df = df[df.stage.isin(["S0", "S2"])]
+df = df[df.repeat == 1]
 Path("results/tables").mkdir(parents=True, exist_ok=True)
 
 t1 = (df[df.stage == "S2"].groupby("condition")
       .agg(accuracy=("correct", "mean"), mean_steps=("steps_n", "mean"),
-           mean_latency_s=("latency_s", "mean"), runs=("correct", "size")).round(3))
+           median_latency_s=("latency_s", "median"),runs=("correct", "size")).round(3))
 t1.to_csv("results/tables/table1_accuracy_by_condition.csv")
 
 t2 = df.pivot_table(index="condition", columns="stage", values="correct", aggfunc="mean")
