@@ -1,0 +1,10 @@
+{"task_id":"HE1","split":"experience","question":"Give both the UniProt accession and the Ensembl gene ID of human TP53.","expected":["P04637","ENSG00000141510"]}
+{"task_id":"HE2","split":"experience","question":"Give both the UniProt accession and the Ensembl gene ID of human EGFR.","expected":["P00533","ENSG00000146648"]}
+{"task_id":"HE3","split":"experience","question":"Give both the UniProt accession and the Ensembl gene ID of human KRAS.","expected":["P01116","ENSG00000133703"]}
+{"task_id":"HE4","split":"experience","question":"Give both the UniProt accession and the Ensembl gene ID of human PTEN.","expected":["P60484","ENSG00000171862"]}
+{"task_id":"HE5","split":"experience","question":"Give both the UniProt accession and the Ensembl gene ID of human MYC.","expected":["P01106","ENSG00000136997"]}
+{"task_id":"HH1","split":"heldout","question":"Give both the UniProt accession and the Ensembl gene ID of human BRCA1.","expected":["P38398","ENSG00000012048"]}
+{"task_id":"HH2","split":"heldout","question":"Give both the UniProt accession and the Ensembl gene ID of human BRCA2.","expected":["P51587","ENSG00000139618"]}
+{"task_id":"HH3","split":"heldout","question":"Give both the UniProt accession and the Ensembl gene ID of human CFTR.","expected":["P13569","ENSG00000001626"]}
+{"task_id":"HH4","split":"heldout","question":"Give both the UniProt accession and the Ensembl gene ID of human APOE.","expected":["P02649","ENSG00000130203"]}
+{"task_id":"HH5","split":"heldout","question":"Give both the UniProt accession and the Ensembl gene ID of human AKT1.","expected":["P31749","ENSG00000142208"]}
